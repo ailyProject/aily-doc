@@ -40,7 +40,7 @@ Then wait for the library conversion to complete and install it.
 Through the settings button in the upper right corner of the AI ASSISTANT interface, you can open the AI assistant settings page  
 ### Using External Models  
 On the settings page, you can fill in your own LLM apikey to call more models. Please note the following:  
-- The model interface must be in OpenAI interface style;
+- The model interface must follow the OpenAI Responses API format;
 - The cloud has hardcoded prompt words, so you cannot connect to models on localhost. If you need self-deployment, please forward the interface to a public network; (Without hardcoded prompt words, our interface would be subject to malicious use)
 - You need to use flagship models with 700B+ parameters to achieve normal agent performance. Testing models below 200B is meaningless.
 
